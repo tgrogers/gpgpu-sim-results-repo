@@ -1,51 +1,51 @@
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,
-GPGPU-Sim-build,,,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,,
+GPGPU-Sim-build,,,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--all_kernels,SobolQRNG/NO_ARGS--all_kernels,alignedTypes/NO_ARGS--all_kernels,asyncAPI/NO_ARGS--all_kernels,bandwidthTest/NO_ARGS--all_kernels,clock/NO_ARGS--all_kernels,convolutionSeparable/NO_ARGS--all_kernels,convolutionTexture/NO_ARGS--all_kernels,cppIntegration/NO_ARGS--all_kernels,fastWalshTransform/NO_ARGS--all_kernels,histogram/NO_ARGS--all_kernels,mergeSort/NO_ARGS--all_kernels,reduction/NO_ARGS--all_kernels,scalarProd/NO_ARGS--all_kernels,simpleAtomicIntrinsics/128_16--all_kernels,simpleP2P/NO_ARGS--all_kernels,simpleTemplates/NO_ARGS--all_kernels,simpleVoteIntrinsics/NO_ARGS--all_kernels,simpleZeroCopy/NO_ARGS--all_kernels,sortingNetworks/NO_ARGS--all_kernels,transpose/dimX128_dimY128--all_kernels,vectorAdd/NO_ARGS--all_kernels
 TITANV,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0,gpgpu-sim_git-commit-642e1d62ff9925855c937d272219e8cc1ad4e9fc_modified_0
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-gpu_tot_sim_insn\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+gpu_tot_sim_insn\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,8251680,13753600,12334592,13631488,NA,1999424,6005760,3502080,228,11165696,16349328,10462306,1791972,3194496,67584,NA,2336,NA,2685376,16859136,1051936
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-gpgpu_simulation_time\s*=.*\(([0-9]+) sec\).*,,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+gpgpu_simulation_time\s*=.*\(([0-9]+) sec\).*,,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,37,60,144,133,NA,16,88,36,2,71,150,105,25,28,23,NA,4,NA,42,130,15
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-gpu_tot_ipc\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+gpu_tot_ipc\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,1314.5897,2075.3887,324.5433,1058.0167,NA,567.3734,310.6320,540.2777,0.1086,478.4136,314.8582,139.4918,260.7263,514.3288,2.8666,NA,1.0341,NA,43.3300,512.9971,526.2311
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-gpu_tot_sim_cycle\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+gpu_tot_sim_cycle\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,6277,6627,38006,12884,NA,3524,19334,6482,2100,23339,51926,75003,6873,6211,23576,NA,2259,NA,61975,32864,1999
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-\s+L2_cache_stats_breakdown\[GLOBAL_ACC_R\]\[HIT\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+\s+L2_cache_stats_breakdown\[GLOBAL_ACC_R\]\[HIT\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,37500,6400,112320,131072,NA,4096,21504,0,5,40976,131712,9520,16392,16384,22528,NA,12,NA,1280,49152,12500
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-\s+L2_cache_stats_breakdown\[GLOBAL_ACC_R\]\[TOTAL_ACCESS\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+\s+L2_cache_stats_breakdown\[GLOBAL_ACC_R\]\[TOTAL_ACCESS\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,37500,6400,112320,131072,NA,4096,21504,NA,5,45056,131712,10045,16392,16384,22528,NA,12,NA,1280,49152,12500
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-\s+L2_cache_stats_breakdown\[GLOBAL_ACC_W\]\[HIT\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+\s+L2_cache_stats_breakdown\[GLOBAL_ACC_W\]\[HIT\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,0,0,201240,131072,NA,0,0,2304,5,40960,7848,5048,129,0,0,NA,0,NA,1024,65536,0
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-\s+L2_cache_stats_breakdown\[GLOBAL_ACC_W\]\[TOTAL_ACCESS\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+\s+L2_cache_stats_breakdown\[GLOBAL_ACC_W\]\[TOTAL_ACCESS\]\s*=\s*(.*),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,25000,12500,205920,131072,NA,192,18432,4608,5,40960,16080,9656,129,64,NA,NA,12,NA,1280,67584,6250
 
-----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,
-gpgpu_simulation_rate\s+=\s+(.*)\s+\(inst\/sec\),,,,,,,,,,,,,,,,,,,
+----------------------------------------------------------------------------------------------------,,,,,,,,,,,,,,,,,,,,,
+gpgpu_simulation_rate\s+=\s+(.*)\s+\(inst\/sec\),,,,,,,,,,,,,,,,,,,,,
 CFG,BlackScholes/NO_ARGS--final_kernel,SobolQRNG/NO_ARGS--final_kernel,alignedTypes/NO_ARGS--final_kernel,asyncAPI/NO_ARGS--final_kernel,bandwidthTest/NO_ARGS--final_kernel,clock/NO_ARGS--final_kernel,convolutionSeparable/NO_ARGS--final_kernel,convolutionTexture/NO_ARGS--final_kernel,cppIntegration/NO_ARGS--final_kernel,fastWalshTransform/NO_ARGS--final_kernel,histogram/NO_ARGS--final_kernel,mergeSort/NO_ARGS--final_kernel,reduction/NO_ARGS--final_kernel,scalarProd/NO_ARGS--final_kernel,simpleAtomicIntrinsics/128_16--final_kernel,simpleP2P/NO_ARGS--final_kernel,simpleTemplates/NO_ARGS--final_kernel,simpleZeroCopy/NO_ARGS--final_kernel,sortingNetworks/NO_ARGS--final_kernel,transpose/dimX128_dimY128--final_kernel,vectorAdd/NO_ARGS--final_kernel
 TITANV,223018,229226,85656,102492,NA,124964,68247,97280,114,157263,108995,99641,71678,114089,2938,NA,584,NA,63937,129685,70129
 
-Script exec time 0.33 seconds. 21 files and 17.176 MB parsed. 52.233 MB/s
+Script exec time 0.33 seconds. 21 files and 17.176 MB parsed. 51.887 MB/s
